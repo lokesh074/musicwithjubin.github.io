@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="music.css">
+        <title>Music player-JN</title>
+        
+            <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" >
+         
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-blue bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.Google.com" target="_blank">Google</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Playlist
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="https://gaana.com/playlist/gaana-dj-best-of-jubin-nautiyal"
+                                        target="_blank">gaana</a></li>
+                                <li><a class="dropdown-item" href="https://www.hungama.com/artist/jubin-nautiyal/6166021/
+                                    View more at: https://www.hungama.com/artist/jubin-nautiyal/6166021/"
+                                        target="_blank">hungama</a></li>
+                               
+                                <li><a class="dropdown-item"
+                                        href="https://www.resso.com/playlist/Jubin-Nautiyal-Highlights-6759437263475808257"
+                                        target="_blank">Resso</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://media.giphy.com/media/8kdLHlYG2qYDe/giphy.gif"
+                            style="width: 100%; height: 550px;" class="d-block w-100" alt="..." id="slow">
+
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>MUSIC</h5>
+                            <p style="font-size: large;">“The only truth is music.” – ..</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./j.jpg" class="d-block" style="width: 100%; height: 550px;" alt="...">
+
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>One of the best singer <span style="color: rgb(221, 36, 36); background-color: wheat;">JUBIN NAUTIYAL</span></h5>
+                            <p style="font-weight: bold;">Jubin Nautiyal (born 14 June 1989) is an Indian playback singer and performer. He was
+                                awarded
+                                Upcoming Male Vocalist of the Year at 8th Mirchi Music Awards for his song "Zindagi Kuch
+                                Toh
+                                Bata (Reprise)" from Bajrangi Bhaijaan. He also won the Rising Musical Star Award (2015)
+                                at
+                                Zee Business Awards. He has since recorded songs for films in various Indian languages,
+                                predominantly Urdu, and has established himself as one of the most sensational singers
+                                in
+                                India.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div>
+                <div class="card" style="width: 100%;" style="margin: 10px 20px;">
+                    <div class="card-body w-100px" style=" width: 1000px; padding: 10px;">
+                        <h5 class="card-title"><span style="color: blue; font-size: 50px;">LISTEN</span>
+                            <p style="font-size: 50px;">To New Music
+                            </p>
+                            <p>Music can raise someone's mood, get them excited, or make them calm and relaxed. Music
+                                also - and this is important - allows us to feel nearly or possibly all emotions that we
+                                experience in our lives. ... It is an important part of their lives and fills a need or
+                                an
+                                urge
+                                to create music.
+                                <br>
+                                <br>
+                                Music is a form of art that uses sound organised in time. Music is also a form of
+                                entertainment that puts sounds together in a way that people like, find interesting or
+                                dance
+                                to. Most music includes people singing with their voices or playing musical instruments,
+                                such as the piano, guitar, drums or violin.
+                            </p>
+                        </h5>
+                        <p class="card-text">
+                            <a href="https://www.spotify.com/in-en/" target="_blank" class="btn btn-primary">Go somewhere</a>
+                        <p>
+                    </div>
+                </div>
+                <div class="songList">
+                    <div class="songItemContainer">
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+
+                            <span class="songlistplay"><span class="timestamp"><i id="0"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="1"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="2"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="3"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="4"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="5"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="6"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="7"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="8"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="9"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="10"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="11"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="12"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="13"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="14"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="15"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="16"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="17"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="18"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="19"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="20"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="21"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="22"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="23"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="24"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="25"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="26"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="27"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="28"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="29"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="30"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="31"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="32"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="33"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="34"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Let me Love You</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="35"
+                                        class="far songItemPlay fa-play-circle"></i> </span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="songBanner"></div>
+
+            </div>
+
+
+            <div class="bottom">
+                <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+                <div class="icons">
+                    <!-- fontawesome icons -->
+                    <i class="fas fa-3x fa-step-backward" id="previous"></i>
+                    <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+                    <i class="fas fa-3x fa-step-forward" id="next"></i>
+                </div>
+                <div class="songinfo">
+                    <img src="https://i.gifer.com/Nt6v.gif" id="gif" width="80px"
+                        style="opacity: 0; transition: opacity 0.5s ease-in;" alt=""><span id="masterSongName">Dil Galti Kar Baitha Hai - Jubin Nautiyal</span>
+                </div>
+            </div>
+
+
+
+            <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous"></script>
+            <script src="music.js">
+
+            </script>
+
+            <h2>Contact</h2>
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="contact">
+                <!-- Add font awesome icons -->
+                <ul>
+                    <li class="fb"><a href="https://www.facebook.com/Jubin-nautiyal-491873900913450/" id="fb"
+                            class="fa fa-facebook"></a>
+                        <h4>facebook</h4>
+                    </li>
+                    <li class="insta"><a href="https://www.instagram.com/jubin_nautiyal/?hl=en" id="insta"
+                            class="fa fa-instagram"></a>
+                        <h4>instagram</h4>
+                    </li>
+                    <li class="ut"><a href="https://youtube.com/playlist?list=PL9bw4S5ePsEEDaD2q9wXvSr8uKWXqE5cK"
+                            id="utube" target="_blank" class="fa fa-youtube-play"></a>
+                        <h4>You tube</h4>
+                    </li>
+                    <li class="tw">
+                        <a id="tw" class="btn btn-block btn-social btn-twitter" href="https://twitter.com/JubinNautiyal" >
+                            <i class="fa fa-twitter"></i>
+                          </a>
+                          <h4 style="margin-top: 4px; margin-left: 4px;">Twitter</h4>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+
+    </body>
+
+</html>
