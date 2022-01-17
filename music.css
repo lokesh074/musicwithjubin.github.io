@@ -12,6 +12,8 @@
 
 body {
     background-color: black;
+    width: fit-content;
+    position: left;
 }
 
 .icons {
@@ -26,14 +28,6 @@ body {
     width: 80px;
     padding: 10px;
     border-radius: 50%;
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-        padding: 25px 50px 75px 100px;
-        margin: 25px 50px 75px 100px;
-        width: fit-content;
-    }
 }
 
 .songItem {
