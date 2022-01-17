@@ -40,7 +40,7 @@ let songs = [
     { songName: "Suna Hai - (Raag.Fm)", filePath: "songs/26.mp3", coverPath: "nnnnn.jpg" },
     { songName: "Tujhe Kitna Chahein - Kabir Singh 128 Kbps", filePath: "songs/27.mp3", coverPath: "barsat.jpg" },
     { songName: "Wafa Na Raas Aayee - (Raag.Fm)", filePath: "songs/28.mp3", coverPath: "barsat.jpg" },
-    { songName: "Zindagi Kuch Toh Bata (Reprise)", filePath: "songs/29.mp3", coverPath: "JN.jpg" },
+    { songName: "Zindagi Kuch Toh Bata (Reprise)", filePath: "songs/29.mp3", coverPath: "jn.jpg" },
     { songName: "Lut gaye phli mohhabbat me_JuBiN", filePath: "songs/30.mp3", coverPath: "j.jpg" },
     { songName: "main-jis-din-bhulaa-du-", filePath: "songs/31.mp3", coverPath: "nn.jpg" },
     { songName: "Govind Bolo - Jubin Nautiyal- ", filePath: "songs/32.mp3", coverPath: "govind.jpg" },
